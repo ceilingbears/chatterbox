@@ -20,5 +20,8 @@ def content(val):
         return "You can't post links!"
 
     # Need more validators here
+    
+    if len(val)>140:
+        return "chillax bro its all like twitter up in here"
 
     return None
